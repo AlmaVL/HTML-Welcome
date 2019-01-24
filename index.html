@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML & CSS Spring '19</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
+    <script>
+        function showNotes() {
+            document.getElementById("sticky").style.display="inline-block";  
+            window.location.href="#sticky";
+            e.preventDefault();
+            e.stopPropagation(); 
+
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+        <div class="text">Let's get started!</div>
+        <input type="button" id="btn-go" class="btn-gradient purple" value="Let's go!" onclick="showNotes()">
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                
+            <div id="demotext"> Welcome to the <br> HTML & CSS Class 
+            </div>
+            </div>
+            <div class="flex-item">
+                <div class="penguin">
+                    <div class="penguin-bottom">
+                    <div class="right-hand"></div>
+                    <div class="left-hand"></div>
+                    <div class="right-feet"></div>
+                    <div class="left-feet"></div>
+                    </div>
+                    <div class="penguin-top">
+                    <div class="right-cheek"></div>
+                    <div class="left-cheek"></div>
+                    <div class="belly"></div>
+                    <div class="right-eye">
+                        <div class="sparkle"></div>
+                    </div>
+                    <div class="left-eye">
+                        <div class="sparkle"></div>
+                    </div>
+                    <div class="blush-right"></div>
+                    <div class="blush-left"></div>
+                    <div class="beak-top"></div>
+                    <div class="beak-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sticky"> 
+        <!-- the agenda should start here   -->
+        <h1> To Remember: </h1>
+        <ul>
+                <li>
+                <a href="#">
+                    <h2>Course Schedule</h2>
+                    <p>Every Monday and Wednesday. 7 - 9 pm</p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Course Location</h2>
+                    <p>Social Impact Lab</p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Slack Channel </h2>
+                    <p> --- </p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Demo Day</h2>
+                    <p> 02.05.2019 </p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Participant Certificate</h2>
+                    <p>You should attend 75% of the lessons!</p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Student Rules:</h2>
+                    <p> ---- </p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Software Needed:</h2>
+                    <p> 🐾 Google Chrome </p>
+                    <p> 🐾 Visual Studio Code </p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>Last Course Day</h2>
+                    <p> 01.05.2019</p>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <h2>My Teachers: </h2>
+                    <p> ---- </p>
+                    <p> ---- </p>
+                </a>
+                </li>
+            </ul>
+    </div>
+</body>
+</html>
