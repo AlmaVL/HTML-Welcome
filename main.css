@@ -37,7 +37,8 @@ html, body {
   .text {
     white-space: nowrap; 
     color: white;
-    font-size: 20px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
     position: absolute;
     overflow: hidden;
     top: 10%;
@@ -290,6 +291,9 @@ input[type="button"]:active {
 
       /*Start of sticky notes */
 
+      h1 {
+        font-family: 'Nothing You Could Do', cursive;
+      }
       ul,li{
         list-style:none;
       }
@@ -340,7 +344,7 @@ input[type="button"]:active {
         -moz-transform:rotate(4deg);
         position:relative;
         top:5px;
-        background:rgb(82, 82, 220);
+        background:rgb(96, 96, 224);
       }
       ul li:nth-child(3n) a{
         -o-transform:rotate(-3deg);
@@ -348,7 +352,7 @@ input[type="button"]:active {
         -moz-transform:rotate(-3deg);
         position:relative;
         top:-5px;
-        background:rgb(171, 6, 168);
+        background:rgb(211, 9, 208);
       }
       ul li:nth-child(5n) a{
         -o-transform:rotate(5deg);
